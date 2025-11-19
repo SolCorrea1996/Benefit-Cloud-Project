@@ -18,7 +18,7 @@ for col in date_columns:
     df[col] = pd.to_datetime(
         df[col], 
         errors='coerce',
-        format= 'mixed'
+        format= 'mixed' # Accepts multiple date formats, coerces invalid parsing to NaT and also works with Pandas 2.0+
     )
     df[col] = df[col].dt.strftime('%Y-%m-%d')
 
