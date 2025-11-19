@@ -1,0 +1,19 @@
+MemberID,Name,DOB,SSN,Plan,Coverage,Effective Date
+1,Omar Lopez,1985-06-15,123456789,Vision Premium,Employee,2010-09-01
+2,Jane Doe,1990-11-22,987654321,Dental Basic,Employee,2015-03-15
+3,John Smith,1978-02-10,456789123,Medical PPO,Employee + Spouse,2005-07-20
+4,Alice Johnson,1982-08-30,321549876,Medical PPO,Employee + Family,2012-11-05
+6,Emily Davis,1988-09-05,789123456,Dental Premium,Employee,2013-05-18
+7,Michael Wilson,1975-12-25,147853692,Vision Core,Employee + Family,2000-10-10
+8,Sarah Miller,1992-03-14,258961473,Medical HDHP,Employee,2016-07-30
+9,David  Garcia,1980-01-19,369742581,Dental Basic,Employee + Spouse,2008-04-25
+11,James Rodriguez,1979-05-23,852967413,Vision Premium,Employee + Family,2007-06-12
+12,Patricia Hernandez,1991-12-02,963857412,Dental Premium,Employee + Child,2014-09-09
+13,Robert Lopez,1986-07-16,159263847,Medical HDHP,Employee,2012-03-03
+14,Maria Gonzalez,1984-04-28,753194862,Dental Premium,Employee + Family,2009-08-17
+15,William Wilson,1977-11-11,852749631,Medical PPO,Employee + Spouse,2003-12-01
+16,Elizabeth Anderson,1993-02-20,951638527,Medical HDHP,Employee,2017-05-25
+17,Charles Thomas,1981-09-09,357281496,Medical PPO,Employee + Child,2006-11-15
+18,Susan Taylor,1987-05-30,258473691,Dental Basic,Employee,2013-08-22
+19,Joseph Moore,1976-03-03,654983217,Medical PPO,Employee + Family,2001-04-18
+20,Karen Jackson,1994-10-19,789451236,Medical PPO,Employee + Spouse,2018-06-14
