@@ -1,13 +1,13 @@
 # Benefit Cloud Project - Engineering Project
 Autor: Solange Correa
 
-## 📌Overview
+## Overview
 This project walks through a simplified version of how HR data gets cleaned, normalized, and prepared before it's sent to an insurance carrier. I built a small Python script that acts like a mini-pipeline.
 
-1.- Reads the HRIS inbound file(**employees_inbound.csv**)
-2.- Cleans and standardizes the messy data(**dates,SSNs, plan names**)
-3.- Maps all of the inconsistent plan names into the correct **carrier plan categories**
-4.- Generates a clean final export file(**carrier_export.csv**) that follows the carrier requirements
+* 1.- Reads the HRIS inbound file(**employees_inbound.csv**)
+* 2.- Cleans and standardizes the messy data(**dates,SSNs, plan names**)
+* 3.- Maps all of the inconsistent plan names into the correct **carrier plan categories**
+* 4.- Generates a clean final export file(**carrier_export.csv**) that follows the carrier requirements
 
 The result:
 * Cleaning and preparing real-world data
@@ -17,7 +17,7 @@ The result:
 
 My goal for this project is keep the code readable, organized, and structured in a way where another engineer could walk through it without any difficult in the syntaxis of the code.
 
-# 🧹 Data Cleaning
+## Data Cleaning
 
 ### SSN
 
@@ -51,7 +51,7 @@ This allowed all the different formats to be converted correctly. Then I reforma
 
 I also created a **clean Name** column by combining first and last names.
 
-### 🗂 Final Output
+### Final Output
 
 The final file carrier_export.csv includes:
 
@@ -71,7 +71,7 @@ The final file carrier_export.csv includes:
 
 Everything is formatted and ready for a carrier import.
 
-### ❗ How Invalid/Missing Data Was Handled
+### How Invalid/Missing Data Was Handled
 
 **I removed rows when:** 
 * SSN was not 9 digits
@@ -79,7 +79,7 @@ Everything is formatted and ready for a carrier import.
 * A date couldn’t be converted even with mixed formatting
 This keeps the export file clean and consistent.
 
-### 📁 Files Included
+### Files Included
 
 * employees_inbound.csv – Original messy HRIS file
 * process_data.py – Python script that cleans and normalizes the data
@@ -92,7 +92,7 @@ Terminated employees are still included unless stated otherwise.
 Some DOBs are missing in the inbound file, so those remain blank.
 FSA plans were excluded since they don’t belong to the final plan groups.
 
-#### ▶ How to Run
+#### How to Run
 1. Install Pandas
 If you don’t have Pandas installed, run: **pip install pandas**
 
